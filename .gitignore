@@ -1,1 +1,8 @@
 .history
+node_modules/
+resources/
+public/
+.hugo_build.lock
+.vercel
+yarn-error.log
+yarn-error.log
