@@ -1,6 +1,6 @@
 baseURL: 'https://minimal-marketing.pages.dev'
 title: 'Minimal Marketing'
-languageCode: en-us
+languageCode: en-gb
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
