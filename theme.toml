@@ -1,17 +1,17 @@
-name = "Minimal Marketing"
+name = "Sikh Sacred Music"
 license = "MIT"
 licenselink = "https://github.com/letItCurl/minimal_marketing/blob/main/LICENSE"
-description = "This is a simple website that is optimized for converting traffic to a marketing goal. It costs only $10/year to host, hence minimal marketing."
+description = "Learn Sikh scared music and take exams"
+version = "0.0.1"
 
-homepage = "https://github.com/gohugoio/gohugoioTheme"
-demosite = "https://minimal-marketing.pages.dev/"
+homepage = "https://sikhsacredmusic.org"
 
-tags = ["blog", "company", "marketing", "landing page"]
+tags = ["music", "sikh", "strings", "exam"]
 features = ["tailwind", "form", "CTA", "Google analytics"]
 
 [author]
-    name = "Roland Lopez"
-    homepage = "https://twitter.com/afrodudeonabike"
+    name = "Jujhar Singh"
+    homepage = "https://jujhar.com"
 
 [original]
   name = "Hugo-Tailwind-3.1"
