@@ -14,9 +14,9 @@ params:
   author_image: /images/defaults/author.jpg
   og_image: /images/defaults/featured_image.jpg
   moto: "Learn Sikh Sacred Music"
-  description: "The Sikh Sacred Music examination system, developed by expert practitioners. enables students to play: dilraba (dilrabā),
+  description: "The Sikh Sacred Music examination system, developed by expert practitioners enables students to play: dilraba (dilrabā),
 taus, israj (isrāj), tarsehnai (tārsèhnaī), or sarangi (sarañgī)."
-  google_analytics_id: '' # @NOTE: To remove the G2A tag, just leave this key to an empty string.
+  google_analytics_id: 'GTM-NP46DZJH' # @NOTE: To remove the G2A tag, just leave this key to an empty string.
   cta:
     text: Take an exam
     url: https://www.youtube.com/watch?v=oHg5SJYRHA0
