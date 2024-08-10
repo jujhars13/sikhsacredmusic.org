@@ -12,6 +12,7 @@ enableInlineShortcodes: true
 params:
   author: sikhsacredmusic.org
   author_image: /images/defaults/author.jpg
+  favicon: /images/defaults/logo.webp
   og_image: /images/defaults/featured_image.jpg
   moto: "Learn Sikh Sacred Music"
   description: "The Sikh Sacred Music examination system, developed by expert practitioners enables students to play: dilraba (dilrabā),
@@ -23,7 +24,7 @@ taus, israj (isrāj), tarsehnai (tārsèhnaī), or sarangi (sarañgī)."
   footer:
     social_url: https://x.com/sikhsacredmusic
     social_username: '@sikhsacredmusic'
-
+    meta.favicon: false
 
 taxonomies:
   category: Categories
