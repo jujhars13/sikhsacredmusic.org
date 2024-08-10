@@ -4,7 +4,7 @@
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
-    <div class="py-24 sm:py-32 lg:pb-40">
+    <div class="py-24 sm:py-20 lg:pb-8">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
           <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ .Site.Params.moto }}</h1>
@@ -17,7 +17,7 @@
         {{ $p1image := resources.Get .Site.Params.og_image }}
         {{ with $p1image }}
           {{ with .Fill (printf "%dx%d Center webp q90" 2432 1442) }}
-            <img src="{{ .RelPermalink }}" alt="Sikh Scared Music" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10 sm:mt-24">
+            <img src="{{ .RelPermalink }}" alt="Sikh Scared Music" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10 sm:mt-8">
           {{ end }}
         {{ end }}
       </div>
@@ -30,7 +30,7 @@
     <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl mx-auto text-center">Deepen your connection with Sabd</h1>
     <p class="tracking-tight font-thin text-sm text-gray-300 mx-auto"><span class="underline-offset-4 underline">Reviews from our Students</span> 👇</p>
   </div>
-  <section class="bg-gray-900 py-24 sm:py-32">
+  <section class="bg-gray-900 py-24 sm:py-14">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
