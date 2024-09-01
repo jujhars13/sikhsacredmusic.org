@@ -1,3 +1,2 @@
-// @NOTE: Remember to import your code here.
-
-import './mobile_navbar_toggle'
+import './mobile_navbar_toggle';
+import {getContent} from './getContent';

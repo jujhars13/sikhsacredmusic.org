@@ -6,8 +6,9 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
-paginate: 9
-enableInlineShortcodes: true
+build:
+  js:
+    minify: true
 
 params:
   author: sikhsacredmusic.org
@@ -22,8 +23,8 @@ taus, israj (isrāj), tarsehnai (tārsèhnaī), or sarangi (sarañgī)."
     text: Take an exam
     url: https://www.youtube.com/watch?v=oHg5SJYRHA0
   footer:
-    social_url: https://instagram.com/sikhsacredmusic
-    social_username: '@sikhsacredmusic'
+    social_url: https://instagram.com/sikhsacredmusicexams
+    social_username: '@sikhsacredmusicexams'
     meta.favicon: false
 
 taxonomies:
@@ -39,3 +40,6 @@ module:
   hugoVersion:
     extended: true
     min: "0.120.0"
+
+minify:
+  _merge: deep

@@ -1,7 +1,7 @@
 {
-  "name": "minimal-marketing",
+  "name": "sikhscared-music-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "SSM website",
   "main": "postcss.config.js",
   "dependencies": {},
   "devDependencies": {

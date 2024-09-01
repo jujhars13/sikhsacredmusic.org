@@ -1,6 +1,5 @@
 <p align="center" style="padding-top:20px">
- <h1 align="center">Minimal Marketing</h1>
- <p align="center">This is a simple website that is optimized for converting traffic to a marketing goal. It costs only $10/year to host, hence minimal marketing.</p>
+ <h1 align="center">Sikh Sacred Music website</h1>
 </p>
   <p align="center">
     <a href="https://gohugo.io/">
