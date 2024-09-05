@@ -5,7 +5,8 @@
  */
 function getContent(pageName='faq'){
   // const url=`https://script.google.com/macros/s/AKfycbzUYSHhmuejPw-cGlUTGQp89ihsGH9fX9u6ji4WdEhFXNBsOjm16aiZYMhYiwcSs25H/exec?page=${pageName}`
-  const url=`/data/${pageName}.json}`
+  const url=`/data/${pageName}.json}`;
+  
     return fetch(url)
     .then(response => response.json())
     .then(out => out.data)

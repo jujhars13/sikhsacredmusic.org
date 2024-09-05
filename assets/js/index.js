@@ -1,2 +1,2 @@
 import './mobile_navbar_toggle';
-import {getContent} from './content';
+import {getContent} from './getContent.js';
