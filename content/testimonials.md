@@ -8,7 +8,7 @@ title: Testimonials
 <div class="mx-auto max-w-7xl px-6 lg:px-8">
   <div class="mx-auto max-w-2xl ">
     <p class="mt-6 text-lg leading-8 text-gray-300">
-      Quotes from key figures in the Sikh Music world
+      Endorsements from luminaries in the Sikh Music world
     </p>
   </div>
   <div id='contentPlaceholder'></div>
@@ -21,18 +21,28 @@ title: Testimonials
     const contentElement = document.getElementById('contentPlaceholder');
     contentElement.innerHTML="<div class='loadingGraphic'>Loading ...</div>";
 
-    const content = await getContent('testimonials');
+    const content = await getJsonContent('testimonials');
 
     const outputHtmlArr = content.map((el)=>{
-      return `<div class="mx-auto max-w-2xl">
-        <img src="${el.image}"/>
-        <p class="mt-6 text-lg leading-8 text-gray-300">
-          ${el.content}
-        </p>
-        <p class="mt-6 text-lg leading-8 text-gray-300">
-          ${el.name}
-        </p>
-      </div>`
+      return `
+      <figure class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+          <img class="w-24 h-24 rounded-full mx-auto" src="/data/${el.image}" alt="${el.name}" width="384" height="512">
+        <div class="pt-3 space-y-4">
+          <blockquote>
+            <p class="text-lg font-medium">
+              ${el.content}
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-sky-500 dark:text-sky-400">
+              ${el.name}
+            </div>
+            <div class="text-slate-700 dark:text-slate-500">
+              ${el.position}
+            </div>
+          </figcaption>
+        </div>
+      </figure>`
     });
 
    contentElement.innerHTML = outputHtmlArr.join("");

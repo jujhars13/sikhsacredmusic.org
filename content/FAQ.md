@@ -27,7 +27,7 @@ title: FAQ
     const contentElement = document.getElementById('contentPlaceholder');
     contentElement.innerHTML="<div class='loadingGraphic'>Loading ...</div>";
 
-    const content = await getContent('faq');
+    const content = await getJsonContent('faq');
 
     const outputHtmlArr = content.map((el)=>{
       return `<div class="mx-auto max-w-2xl">

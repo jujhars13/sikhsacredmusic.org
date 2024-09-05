@@ -1,2 +1,4 @@
 import './mobile_navbar_toggle';
-import {getContent} from './getContent.js';
+import { getJsonContent } from './getJsonContent';
+ 
+window.getJsonContent = getJsonContent;
