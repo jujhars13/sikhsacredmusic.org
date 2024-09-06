@@ -1,19 +1,23 @@
 {	
 "data": [
 	{
-		"name": "Bhai Kultar Singh - Son of Bhai Avtar Singh Ji",
+		"name": "Bhai Kultar Singh",
 		"image": "bhai-kultar-singh.jpg",
-		"content": "This is such a great way of getting our music out to the masses"
+		"content": "This is such a great way of getting our music out to the masses",
+		"position": "Son of Bhai Avtar Singh Ji, 14th Generation of Rababi Tradition"
 	},
 	{
 		"name": "Dr Gurnam Singh",
 		"image": "dr-gurnam-singh.jpg",
-		"content": "We now have some rigour and discipline in teaching music"
+		"content": "We now have some rigour and discipline in teaching music",
+		"position":"Professor of Music, Punjabi University, Patiala"
+
 	},
 	{
 		"name": "Bhai Satnider Singh Bodal",
 		"image": "bhai-satninder-singh-bodal.jpg",
-		"content": "Anything to support the teaching of the next generation of Kirtan is a good thing"
+		"content": "Anything to support the teaching of the next generation of Kirtanis is a good thing",
+		"position": "World class kirtani"
 	}
 ]
 }
