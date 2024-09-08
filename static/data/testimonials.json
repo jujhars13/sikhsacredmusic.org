@@ -18,6 +18,13 @@
 		"image": "bhai-satninder-singh-bodal.jpg",
 		"content": "Anything to support the teaching of the next generation of Kirtanis is a good thing",
 		"position": "World class kirtani"
+	},
+	{
+		"name": "BBC Radio Derby",
+		"image": "bbc-radio-derby.jpg",
+		"content": "Interview with BBC Radio Derby on the 6th of September 2024",
+		"media": "/data/RadioDerby-2024-09-06.mp3"
 	}
+	
 ]
 }

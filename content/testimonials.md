@@ -11,19 +11,33 @@ title: Testimonials
       Endorsements from luminaries in the Sikh Music world
     </p>
   </div>
-  <div id='contentPlaceholder'></div>
+  <div id='testimonialPlaceholder'></div>
 </div>
-
 
 <script type="text/javascript">
 
   document.addEventListener('DOMContentLoaded', async ()=> {
-    const contentElement = document.getElementById('contentPlaceholder');
-    contentElement.innerHTML="<div class='loadingGraphic'>Loading ...</div>";
+    const testimonialEl = document.getElementById('testimonialPlaceholder');
+    testimonialEl.innerHTML = "<div class='loadingGraphic'>Loading ...</div>";
+    testimonialEl.innerHTML = await renderTestimonials();
 
+  });
+
+  async function renderTestimonials(){
     const content = await getJsonContent('testimonials');
 
     const outputHtmlArr = content.map((el)=>{
+      
+      let media=el?.position;
+      if (el?.media){
+        media=`
+          <div class="content-center">
+            <audio controls class="content-center">
+              <source src="${el.media}" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>`
+      }
       return `
       <figure class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
           <img class="w-24 h-24 rounded-full mx-auto" src="/data/${el.image}" alt="${el.name}" width="384" height="512">
@@ -38,14 +52,15 @@ title: Testimonials
               ${el.name}
             </div>
             <div class="text-slate-700 dark:text-slate-500">
-              ${el.position}
+              ${media}
             </div>
           </figcaption>
         </div>
       </figure>`
     });
 
-   contentElement.innerHTML = outputHtmlArr.join("");
+    return outputHtmlArr.join("");
 
-  });
+  }
+
   </script>
