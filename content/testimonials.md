@@ -8,7 +8,7 @@ title: Testimonials
 <div class="mx-auto max-w-7xl px-6 lg:px-8">
   <div class="mx-auto max-w-2xl ">
     <p class="mt-6 text-lg leading-8 text-gray-300">
-      Endorsements from luminaries in the Sikh Music world
+      Endorsements, comments and media
     </p>
   </div>
   <div id='testimonialPlaceholder'></div>
