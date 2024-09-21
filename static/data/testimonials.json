@@ -7,10 +7,41 @@
       "link": "https://www.bbc.com/news/videos/c9dyyn961z7o"
     },
     {
+      "name": "First ‘globally recognised’ music exam for Sikh sacred music launched in UK",
+      "image": "guardian.png",
+      "content": "Guardian: First ‘globally recognised’ music exam for Sikh sacred music launched in UK",
+      "link": "https://www.theguardian.com/education/2024/sep/19/first-globally-recognised-music-exam-for-sikh-sacred-music-launched-in-uk"
+    },
+    {
+      "name": "BBC Radio 4",
+      "image": "radio-4.png",
+      "content": "BBC Radio 4: Interview with Dr. Harjinder Singh Lallie",
+      "media": "/data/bbc-radio-4-interview-ssm-2024-09-18.mp3"
+    },
+    {
+      "name": "Kirtan recognised by UK music exam board as 'Sikh Sacred Music'",
+      "image": "tribune.png",
+      "content": "Tribune India: Kirtan recognised by UK music exam board as 'Sikh Sacred Music'",
+      "link": "https://www.tribuneindia.com/news/diaspora/in-uks-first-kirtan-recognised-by-music-exam-board-as-sikh-sacred-music/"
+    },
+    {
+      "name": "Sikh sacred music added to UK exam system",
+      "image": "semaphore.png",
+      "content": "Semaphore: Sikh sacred music added to UK exam system",
+      "link": "https://www.semafor.com/article/09/19/2024/sikh-sacred-music-added-to-uk-exam-system"
+    },
+    {
+      "name": "In UK's first, kirtan recognised by music exam board as 'Sikh Sacred Music'",
+      "image": "bahman-times.png",
+      "content": "Hindustan Times: In UK's first, kirtan recognised by music exam",
+      "link": "https://www.hindustantimes.com/education/news/in-uks-first-kirtan-recognised-by-music-exam-board-as-sikh-sacred-music-101726814137687.html"
+    },
+    {
       "name": "BBC Radio Derby",
       "image": "bbc-radio-derby.jpg",
       "content": "Interview with BBC Radio Derby on the 6th of September 2024",
       "media": "/data/RadioDerby-2024-09-06.mp3"
     }
+
   ]
 }
