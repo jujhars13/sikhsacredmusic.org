@@ -28,14 +28,20 @@ title: Testimonials
 
     const outputHtmlArr = content.map((el)=>{
       
-      let media=el?.position;
+      let extra=el?.position;
       if (el?.media){
-        media=`
+        extra=`
           <div class="content-center">
             <audio controls class="content-center">
               <source src="${el.media}" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
+          </div>`
+      }
+      if (el?.link){
+        extra=`
+          <div class="content-center">
+              <a href="${el.link}"/>
           </div>`
       }
       return `
@@ -52,7 +58,7 @@ title: Testimonials
               ${el.name}
             </div>
             <div class="text-slate-700 dark:text-slate-500">
-              ${media}
+              ${extra}
             </div>
           </figcaption>
         </div>

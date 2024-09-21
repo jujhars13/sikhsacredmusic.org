@@ -1,18 +1,24 @@
-{	
-"data": [{
-		"question": "Where can I take the exam?",
-		"answer": "You can take the exam at anytime, anywhere in the world. The exam is submitted as a recording through an app. The app is compatible with both iPhone and Android devices. Specifics of how to make your recording are detailed in your grade books. "
-	}, {
-	"question": "Is this exam just for students in the UK?",
-	"answer": "This exam can be taken by anyone, anywhere in the world."
-	}, {
-	"question": "Where can I find a teacher?",
-	"answer": "Our website will list some teachers but it will not be a conclusive list. Anyone that can teach Kirtan on a stringed instrument should be able to teach this curriculum. We recommend that teachers complete the official certified teacher training course to become familiar with the examination system. However, your teacher does not need to be certified to deliver the course. "
-	}, {
-	"question": "How much do the exams cost?",
-	"answer": "Exam prices are listed on the MTB website <a href='https://www.mtbexams.com/'>mtbexams.com</a>"
-	}, {
-	"question": "Do I have to pass each grade before moving on to the next?",
-	"answer": "It is STRONGLY recommended that you pass each grade before moving onto the next. However, it is not a pre-requisite to have to have passed a previous grade before moving on. Please consult, and rely on the judgement of your tutor to determine whether you can move onto a new grade without having passed a previous grade."
-	}]
+{
+  "data": [
+    {
+      "question": "Where can I take the exam?",
+      "answer": "You can take the exam at anytime, anywhere in the world. The exam is submitted as a recording through an app. The app is compatible with both iPhone and Android devices. Specifics of how to make your recording are detailed in your grade books. "
+    },
+    {
+      "question": "Is this exam just for students in the UK?",
+      "answer": "This exam can be taken by anyone, anywhere in the world."
+    },
+    {
+      "question": "Where can I find a teacher?",
+      "answer": "Our website will list some teachers but it will not be a conclusive list. Anyone that can teach Kirtan on a stringed instrument should be able to teach this curriculum. We recommend that teachers complete the official certified teacher training course to become familiar with the examination system. However, your teacher does not need to be certified to deliver the course. "
+    },
+    {
+      "question": "How much do the exams cost?",
+      "answer": "Exam prices are listed on the MTB website <a href='https://www.mtbexams.com/'>mtbexams.com</a>"
+    },
+    {
+      "question": "Do I have to pass each grade before moving on to the next?",
+      "answer": "It is STRONGLY recommended that you pass each grade before moving onto the next. However, it is not a pre-requisite to have to have passed a previous grade before moving on. Please consult, and rely on the judgement of your tutor to determine whether you can move onto a new grade without having passed a previous grade."
+    }
+  ]
 }
