@@ -20,7 +20,6 @@ title: Testimonials and Media
     const testimonialEl = document.getElementById('testimonialPlaceholder');
     testimonialEl.innerHTML = "<div class='loadingGraphic'>Loading ...</div>";
     testimonialEl.innerHTML = await renderTestimonials();
-
   });
 
   async function renderTestimonials(){

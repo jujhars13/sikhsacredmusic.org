@@ -23,13 +23,11 @@
           </div>
         </div>
 
-
         <div class="flex justify-center">
           <iframe src="https://embeds.beehiiv.com/71a74205-7f50-46ba-8f87-fae9c4c998b3?slim=true"
             data-test-id="beehiiv-embed" width="520" height="52" frameborder="0" scrolling="no"
             style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
         </div>
-
 
        <!-- <div class="mx-auto max-w-2xl text-center gap-x-6 p-9">
           <h3 class="text-2xl font-bold tracking-tight text-white sm:text-2xl">Our 2024 Birmingham Launch event</h3>
@@ -42,14 +40,15 @@
             class="mt-16 rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10 sm:mt-8">
 
         </div> -->
-
+        <div class="mx-auto max-w-2xl text-center">
         {{ $p1image := resources.Get .Site.Params.og_image }}
         {{ with $p1image }}
         {{ with .Fill (printf "%dx%d Center webp q90" 2432 1442) }}
-        <img id="hero_image" src="{{ .RelPermalink }}" alt="Sikh Scared Music" width="2432" height="1442"
-          class="mt-16 rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10 sm:mt-8">
+        <img id="hero_image" src="{{ .RelPermalink }}" alt="Sikh Scared Music" width="800" 
+          class="mt-16 rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10 sm:mt-8 content-stretch">
         {{ end }}
         {{ end }}
+        </div>
       </div>
     </div>
     <div
@@ -106,7 +105,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     // Get the image element
     const image = document.querySelector('#hero_image');
-    const randomNumber = Math.floor(Math.random() * 5);
+    const randomNumber = Math.floor(Math.random() * 11);
     const paddedNumber = randomNumber.toString().padStart(2, '0');
     image.src = `/images/featured_image_${paddedNumber}.jpg`;
 
