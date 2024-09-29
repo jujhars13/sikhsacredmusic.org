@@ -42,13 +42,11 @@ title: Testimonials and Media
               <div class="text-sky-500 dark:text-sky-400">
                 ${el.name}
               </div>
-              <div class="text-slate-700 dark:text-slate-500">
-                <div style="text-align: center;">
+             <div class="flex justify-center items-center mt-4">
                   <audio controls >
                     <source src="${el.media}" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
-                </div>
               </div>
             </figcaption>
           </div>
