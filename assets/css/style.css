@@ -1368,10 +1368,6 @@ video {
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .content-stretch {
   align-content: stretch;
 }
@@ -1561,10 +1557,6 @@ video {
 
 .p-9 {
   padding: 2.25rem;
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .px-2 {
